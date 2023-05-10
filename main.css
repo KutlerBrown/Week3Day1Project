@@ -1,0 +1,60 @@
+html, body, header, h1, p, label, input{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: rgb(255, 239, 208);
+}
+.header {
+    padding: 0 30px;
+    background-color: orange;
+    height: 40px;
+}
+.header p{
+    float:left;
+    margin: 7px 10px;
+    color: white;
+}
+.header a{
+    float:right;
+    margin: 7px 10px;
+    color: white;
+    text-decoration: none;
+}
+.header a:hover{
+    border: white 1px solid;
+}
+.main-content{
+    margin: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 40px auto;
+    width: 250px;
+    border: orange 2px solid;
+    padding: 20px 15px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.box h1{
+    margin: 0 10px;
+    font-size: 18px;
+}
+.box p{
+    margin: 5px 30px;
+    font-size: 12px;
+}
+.box a{
+    text-align: center;
+    display: block;
+    margin: 10 auto;
+    background-color: orange;
+    padding-bottom: 2px;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+}
