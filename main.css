@@ -11,14 +11,14 @@ body{
     padding: 0 30px;
     background-color: orange;
     height: 40px;
+    display: flex;
 }
 .header p{
-    float:left;
+    flex-grow:1;
     margin: 7px 10px;
     color: white;
 }
 .header a{
-    float:right;
     margin: 7px 10px;
     color: white;
     text-decoration: none;
@@ -30,6 +30,8 @@ body{
     margin: 0 100px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .box{
     margin: 40px auto;
